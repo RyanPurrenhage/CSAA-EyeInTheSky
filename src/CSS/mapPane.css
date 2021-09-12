@@ -1,0 +1,7 @@
+.map-pane {
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	border-bottom: 3px solid var(--csaablue);
+	border-top: 3px solid var(--csaablue);
+	text-align: center;
+}

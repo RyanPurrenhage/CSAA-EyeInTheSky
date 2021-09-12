@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Quattrocento+Sans:wght@400;700&display=swap');
+
+.right-pane > h3,
+.map-right-pane > h3 {
+	font-family: 'Oswald', sans-serif;
+}
+
+.right-pane-items {
+	padding: 15px;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.right-pane-item {
+	margin-bottom: 10px;
+}
+
+.scores {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	padding: 30px;
+	font-size: 1.75rem;
+	font-weight: bold;
+	color: var(--csaared);
+}
+
+.scores > .score {
+	margin-top: 15px;
+}
+
+/* Map right pane */
+
+.map-right-pane {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.key-icons {
+	background-color: white;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid var(--csaared);
+	padding-top: 15px;
+	overflow: scroll;
+	margin: 0 5px;
+}
+
+.right-pane-items > p {
+	margin-bottom: 15px;
+}
+
+.key-icons > p {
+	margin-bottom: 15px;
+}

@@ -1,0 +1,74 @@
+.login-container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.login {
+	background-color: var(--csaablue);
+	padding: 40px;
+	border-radius: 1rem;
+	text-align: center;
+	width: 40vw;
+	height: 30vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.title {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	line-height: 22px;
+	font-size: 3rem;
+	text-shadow: 2px 0px var(--csaared);
+	color: var(--csaablue);
+	padding-bottom: 50px;
+}
+
+.desc {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2rem;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.dot {
+	color: var(--csaared);
+}
+
+.login-btn {
+	font-family: 'Quattrocento Sans', sans-serif;
+	color: #efefef !important;
+	background-color: var(--csaablue) !important;
+	width: 120px;
+	height: 30px;
+	border-radius: 1rem !important;
+	border: 1px solid white !important;
+	margin-top: 10px;
+	font-size: 1rem;
+}
+
+.login-btn:hover {
+	border: 1px groove black !important;
+	background-color: var(--success-green) !important;
+}
+
+.login-input {
+	border-radius: 1rem !important;
+	border: 1px solid gray !important;
+	padding: 4px;
+	text-align: center;
+	width: 220px;
+	margin-bottom: 5px;
+	height: 30px;
+}
+
+/* remove blue outline on input focus */
+.login-input:focus {
+	border-color: inherit;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	outline: none;
+}

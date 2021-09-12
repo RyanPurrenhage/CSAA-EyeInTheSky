@@ -1,0 +1,35 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+
+.search-cus {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.search-container-cus {
+	position: relative;
+}
+.search-container-cus input {
+	color: var(--csaablue);
+	text-indent: 30px;
+	width: 30vw;
+	border: 2px solid var(--csaablue);
+	padding: 8px;
+	border-radius: 1rem;
+}
+.search-container-cus .fa {
+	position: absolute;
+	top: 7px;
+	right: 20px;
+	font-size: 20px;
+	color: var(--csaablue);
+	cursor: pointer;
+}
+
+/* remove blue outline on input focus */
+.search-input-cus:focus {
+	border-color: inherit;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	outline: none;
+}

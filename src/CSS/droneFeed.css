@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Quattrocento+Sans:wght@400;700&display=swap');
+
+.drone-feed {
+	display: flex;
+	justify-content: center;
+	height: 72vh;
+	width: 100%;
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.drone-feed-left,
+.drone-feed-right {
+	flex: 0.16;
+	height: 100%;
+	padding: 20px 0 20px 0;
+	line-height: 1rem;
+	border-radius: 1rem;
+	text-align: center;
+	background-color: var(--csaablue);
+	color: #ffffff;
+}
+
+.drone-feed-center {
+	display: flex;
+	flex: 0.68;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+}
+
+.feed-pane {
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	border-bottom: 3px solid var(--csaablue);
+	border-top: 3px solid var(--csaablue);
+	text-align: center;
+	height: 70vh;
+	width: 100%;
+}

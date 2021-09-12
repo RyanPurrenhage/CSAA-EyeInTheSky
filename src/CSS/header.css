@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Quattrocento+Sans:wght@400;700&display=swap');
+
+.header {
+	font-family: 'Quattrocento Sans', sans-serif;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 15px 15px 0 0;
+	z-index: 1;
+}

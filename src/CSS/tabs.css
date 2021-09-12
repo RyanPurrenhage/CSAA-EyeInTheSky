@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Quattrocento+Sans:wght@400;700&display=swap');
+
+.tabs {
+	display: flex;
+	justify-content: center;
+	padding-top: 15px;
+}
+
+.tab-button {
+	font-family: 'Quattrocento Sans', sans-serif;
+	color: #ffffff;
+	background-color: var(--csaablue);
+	width: 150px;
+	border-radius: 1rem;
+	margin: 0 1px;
+	font-weight: bold;
+	padding: 8px;
+	box-shadow: none;
+}
+
+.tab-button:hover {
+	background: var(--success-green);
+	border: 2px solid var(--csaablue) !important;
+	border-radius: 1rem;
+}
+
+.tab-button:focus {
+	outline: 1px solid #fff !important;
+}
+
+.tab-active {
+	border: 2px solid var(--csaared) !important;
+	border-radius: 1rem;
+	text-decoration: none !important;
+}

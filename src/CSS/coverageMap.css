@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Quattrocento+Sans:wght@400;700&display=swap');
+
+.coverage-map {
+	display: flex;
+	justify-content: center;
+	height: 72vh;
+	width: 100%;
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.coverage-map-left,
+.coverage-map-right {
+	flex: 0.16;
+	height: 100%;
+	padding: 20px 0 20px 0;
+	line-height: 1rem;
+	border-radius: 1rem;
+	text-align: center;
+	background-color: var(--csaablue);
+	color: #ffffff;
+}
+
+.coverage-map-center {
+	display: flex;
+	flex: 0.68;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+}

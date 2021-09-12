@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Quattrocento+Sans:wght@400;700&display=swap');
+
+.left-pane {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.left-pane > h3 {
+	font-family: 'Oswald', sans-serif;
+}
+
+.left-pane-streams {
+	padding: 20px;
+}
+
+.left-pane > a > button {
+	font-family: 'Quattrocento Sans', sans-serif;
+	color: var(--csaablue) !important;
+	background-color: #ffffff !important;
+	border-radius: 1rem !important;
+	font-weight: bold !important;
+	border: 1px groove var(--csaared) !important;
+	width: 100px;
+	padding: 10px;
+}
+
+.customers-btn:hover {
+	background: var(--success-green) !important;
+	border: 1px groove var(--csaared) !important;
+	transform: scale(1.1);
+}

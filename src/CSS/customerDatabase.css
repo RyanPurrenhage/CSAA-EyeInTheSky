@@ -1,0 +1,80 @@
+.customer-db {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+}
+
+.customer-db > .head-area {
+	height: 20vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.customer-db > .body-area {
+	height: 80vh;
+	background-color: var(--csaablue);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 100px;
+}
+
+.customer-db > .head-area > h1 {
+	font-family: 'Oswald', sans-serif;
+	color: var(--csaablue);
+	font-size: 1.3rem;
+	font-weight: bolder;
+	margin: 10px 0;
+}
+
+.information-header {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	background-color: black;
+}
+
+.information-header > div > h1 {
+	font-size: 1.1rem;
+}
+
+.customer-entries {
+	background-color: var(--csaablue);
+	width: 100%;
+	height: 65%;
+	overflow: scroll;
+}
+
+.home-btn {
+	font-family: 'Quattrocento Sans', sans-serif;
+	color: #ffffff;
+	background-color: var(--csaablue);
+	width: 150px;
+	border: 2px solid var(--csaared);
+	border-radius: 1rem;
+	margin: 0 1px;
+	font-weight: bold;
+	padding: 8px;
+	box-shadow: none;
+}
+
+.home-btn:hover {
+	background: var(--success-green);
+	border: 2px solid var(--csaablue) !important;
+	border-radius: 1rem;
+}
+
+.home-btn:focus {
+	outline: 1px solid #fff !important;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+}

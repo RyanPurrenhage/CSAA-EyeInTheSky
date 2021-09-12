@@ -1,0 +1,30 @@
+.display-cus-container {
+	display: flex;
+	margin-bottom: 3px;
+	color: black;
+	background-color: white;
+	text-align: right;
+	width: 100%;
+}
+
+.display-cus-container:hover {
+	background-color: rgb(231, 227, 227);
+}
+
+.display-cus-container > div {
+	width: 100%;
+	text-align: left;
+}
+
+.display-cus-container > .name {
+	flex: 0.3;
+}
+.display-cus-container > .email {
+	flex: 0.3;
+}
+.display-cus-container > .address {
+	flex: 0.3;
+}
+.display-cus-container > .firescore {
+	flex: 0.1;
+}
