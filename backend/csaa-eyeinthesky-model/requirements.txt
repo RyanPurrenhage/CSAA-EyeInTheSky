@@ -1,0 +1,15 @@
+Keras==2.4.3
+Pillow==8.1.0
+tensorflow==2.4.1
+numpy==1.19.5
+matplotlib==3.3.4
+opencv-python==4.5.1.48
+imutils==0.5.4
+faker==7.0.1
+flask==1.1.2
+flask_cors
+flask_wtf
+pymongo
+requests
+flask_session
+bcrypt
