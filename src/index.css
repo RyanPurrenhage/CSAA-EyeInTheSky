@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Quattrocento+Sans:wght@400;700&display=swap');
+
+:root {
+	--csaablue: #00338e;
+	--csaared: #d52b1e;
+	--success-green: #5cb85c;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+::placeholder {
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	font-family: 'Quattrocento Sans', sans-serif;
+	text-align: center;
+	opacity: 1; /* Firefox */
+	color: rgb(168, 166, 166) !important;
+	font-size: 0.9rem !important;
+}
+
+:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+::-ms-input-placeholder {
+	/* Microsoft Edge */
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+/* Tabs */
+
+.current-stream {
+	display: flex;
+	justify-content: center;
+	font-family: 'Oswald', sans-serif;
+	color: var(--csaablue);
+	font-size: 1.3rem;
+	font-weight: bolder;
+	margin: 10px 0;
+}
+
+/* Drone Feed Tab */
+
+.menu-bars {
+	color: var(--csaablue);
+}
+
+.stream-label {
+	cursor: pointer;
+	margin: 12px;
+	padding: 12px;
+	border: 1px groove var(--csaared);
+	border-radius: 1rem;
+}
+
+.stream-label:hover {
+	transform: scale(1.05);
+	border: 1px groove var(--success-green);
+}
+
+.send-drone-btn {
+	border: 1px solid var(--csaablue);
+	border-radius: 1rem;
+	padding: 5px 10px;
+	margin-top: 15px;
+	text-decoration: none;
+}
+
+.send-drone-btn:active {
+	text-decoration: none !important;
+}
+
+.send-drone-btn:hover {
+	background-color: var(--csaablue);
+	color: white;
+}
+
+.marker-info-window {
+	line-height: 1.5rem;
+	border: 2px solid var(--csaablue);
+	padding: 20px;
+}
+
+.marker-info-window > #firescore {
+	color: red;
+	font-weight: bold;
+}
